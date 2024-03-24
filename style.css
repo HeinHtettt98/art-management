@@ -1,8 +1,15 @@
+@import url("./node_modules/animate.css/animate.min.css");
+@import url("./node_modules/sweetalert2/dist/sweetalert2.min.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-.box{
-    @apply max-w-[1000px] mx-auto;
+.box {
+  @apply max-w-[1000px] mx-auto;
+}
+.categoryBtm {
+  @apply text-white whitespace-nowrap text-clip absolute mt-2 bg-textHeading focus:z-[1] rounded-lg hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium text-xs px-3 py-1.5 md:px-5 md:py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700;
+}
+.animatee {
+  @apply translate-y-[40px] pointer-events-auto opacity-100;
 }
