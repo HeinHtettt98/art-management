@@ -8,7 +8,7 @@ export const inputHandelar = (event) => {
   // console.log(search);
   productHandelar(
     products.filter((prod) =>
-      prod.title.toLowerCase().includes(event.target.value)
+      prod.title.toLowerCase().includes(event.target.value.toLowerCase())
     )
   );
 };
